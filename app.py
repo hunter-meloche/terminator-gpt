@@ -9,7 +9,7 @@ import openai
 import atexit
 
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'your_api_key'
 
 
 logging.basicConfig(
