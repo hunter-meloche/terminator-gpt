@@ -61,7 +61,7 @@ def handle_ai_interaction(user_input):
         
         for r in response_generator:
             if isinstance(r, dict) and "tool_result" in r:
-                response += r["tool_result"] + '\n'
+                response += r["tool_result"] + '\n\n••••••••••\n\n'
             elif isinstance(r, str):
                 response += r
     except:
